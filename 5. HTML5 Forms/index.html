@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML5 forms</h1>
+
+
+    <form>
+        <p>This is where the form controls will appear.</p>
+   
+        <p>
+            <label>Username:
+                <input type="text" size="15" minlength="4" maxlength="30" required />
+            </label>
+        </p>
+
+        <p>
+            <label for="passwordInput">Password:</label>
+            <input id="passwordInput" type="password" size="15" maxlength="30" />
+        </p>
+
+        <p>What did you think of this gig?</p>
+        <textarea cols="20" rows="4">Enter your comments...
+        </textarea>
+
+
+        <p>
+            Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" /> Rock
+            <input type="radio" name="genre" value="pop" checked /> Pop
+            <input type="radio" name="genre" value="jazz" /> Jazz
+        </p>
+
+        <p>
+            Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" checked /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+
+
+        <p> What device do you listen to music on? </p>
+        <select>
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer" selected>Computer</option>
+        </select>
+
+
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding down control on a PC or command key on a Mac while selecting
+            different options.)</p>
+
+        <select size="3" multiple>
+            <option value="guitar" selected>Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected>Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" />
+
+        <br />
+        <br />
+
+
+        <!-- <input type="submit" value="Upload" /> -->
+        <button type="submit">Upload</button>
+    </form>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
